@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #F5F5F5;
+}
+
+.info--div {
+    text-align: center;
+    margin: 0;
+}
+
+.info--image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+
+}
+
+.info--name {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.info--job {
+    color: #F47D27;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.info--site {
+    margin-top: 8px;
+    margin-bottom: 17px;
+    color: #4A4E74;;
+}
+
+.info--btn {
+    margin: auto;
+    display: flex;
+    width: 350px;
+    padding: 9px 13px 9px 11px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 6px;
+    border: 1px solid var(--gray-300, #D1D5DB);
+    background: var(--white, #FFF);
+}
+
+.about--div {
+    text-align: left;
+    width: 350px;
+    margin: auto;
+}
+
+.about--about {
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+.about--info {
+    color: #4A4E74;
+    margin-top: 0;
+
+}
+
+.interests--div {
+    text-align:left;
+    width: 350px;
+    margin: auto;
+}
+
+.interests--interests {
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+.interests--info {
+    color: #4A4E74;
+    margin-top: 0;
+    margin-bottom: 31px;
+}
+
+.footer--div {
+    background-color: #D5D4D8;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    margin: auto;
+}
